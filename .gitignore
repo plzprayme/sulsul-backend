@@ -307,3 +307,8 @@ out/
 
 ### VS Code ###
 .vscode/
+
+**/application-mongo.yml
+
+#sulsul-api/src/main/resources/config/application-mongo.yml
+#sulsul-domain/src/test/resources/config/application-mongo.yml
