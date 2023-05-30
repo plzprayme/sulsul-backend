@@ -1,0 +1,25 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  data:
+    mongodb:
+       uri: {LOCAL_MONGO_URI}
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  data:
+    mongodb:
+      uri: {DEV_MONGO_URI}
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+  data:
+    mongodb:
+      uri: {PROD_MONGO_URI}

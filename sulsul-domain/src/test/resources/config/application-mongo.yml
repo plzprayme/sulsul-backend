@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: {TEST_MONGO_URI}
